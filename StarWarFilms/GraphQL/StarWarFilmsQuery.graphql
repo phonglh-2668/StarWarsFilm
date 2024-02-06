@@ -1,0 +1,16 @@
+query StarWarFilmsQuery {
+  allFilms {
+    films {
+      episodeID
+      openingCrawl
+      title
+      releaseDate
+      characterConnection {
+        characters {
+          name
+        }
+      }
+    }
+  }
+}
+
